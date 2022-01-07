@@ -45,6 +45,7 @@ body{
         height: 500px;
         margin: 0px 35px 0px 35px;
         display: flex;
+        border-radius: 8px;
 
         .set-1, .set-2, .set-3{
             width: 308px;
@@ -95,6 +96,7 @@ body{
         .set-1{
             background-image: url("../images/icon-sedans.svg");
             background-color: $Bright-orange;
+            border-radius: 8px 0px 0px 8px;
 
             p{
                 width: 200px;
@@ -127,6 +129,7 @@ body{
         .set-3{
             background-image: url("../images/icon-luxury.svg");
             background-color: $Very-dark-cyan;
+            border-radius: 0px 8px 8px 0px;
 
             p{
                 width: 210px;
